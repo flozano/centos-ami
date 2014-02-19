@@ -24,7 +24,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "shell", path: "build-centos-box.sh"
 
-  config.cache.auto_detect = true
-  config.cache.enable_nfs  = true
+#  config.cache.auto_detect = true
+#  config.cache.enable_nfs  = true
 
 end
